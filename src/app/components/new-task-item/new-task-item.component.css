@@ -1,0 +1,7 @@
+.task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 5%;
+}
