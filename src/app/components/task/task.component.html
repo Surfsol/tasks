@@ -1,1 +1,1 @@
-<app-new-task-item *ngFor="let task of tasks" [task]="task">{{task.text}}</app-new-task-item>
+<app-new-task-item (onDeleteTask)="deleteItem(task.id)" *ngFor="let task of tasks" [task]="task">{{task.text}}</app-new-task-item>

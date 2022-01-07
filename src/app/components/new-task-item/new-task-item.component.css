@@ -5,3 +5,7 @@
     background-color: aquamarine;
     margin: 5%;
 }
+
+.task-container-reminder {
+    border: 1px solid blue;
+}
